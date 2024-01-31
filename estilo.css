@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://i.pinimg.com/564x/c5/84/43/c58443e0001ee93ee6d4b92055faa2f4.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: black;
+  letter-spacing: 3px;
+  margin: 2px 0 10px;
+}
+
+.page-subtitle {
+  color: black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px;
+  width: 650px;
+  margin: auto;
+}
+
+.labelInput {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: label;
+  display: block;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.botoesConversao {
+  color: black;
+  background-color: rgb(204, 204, 204);
+}
+
+.botaoLimpar {
+  background-color: #660000;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 300px;
+  margin-top: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#resultadoNumeros {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: black;
+  text-shadow: 1px 1px 1px #e6e6e6;
+}
